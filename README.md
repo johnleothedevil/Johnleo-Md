@@ -61,7 +61,7 @@
  
  𝐓𝐀𝐏 𝐇𝐄𝐑𝐄 𝐀𝐍𝐃 𝐖𝐀𝐓𝐂𝐇 𝐇𝐎𝐖 𝐓𝐎 𝐂𝐎𝐍𝐍𝐄𝐂𝐓
  
- [`𝐕𝐈𝐃𝐄𝐎`](https://youtube.com/JohnleoTech)
+ [`𝐕𝐈𝐃𝐄𝐎`](https://www.youtube.com/@JohnleoTech)
 
 
 
