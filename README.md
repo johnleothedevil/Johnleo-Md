@@ -3,7 +3,7 @@
  
 
 
-<img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THE+JOHNLEO-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+JOHNLEO+;RELEASED+2.8.2024;ENJOY" alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THE+JOHNLEO-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+JOHNLEO+;RELEASED1.9.2024;ENJOY" alt="Typing SVG" /></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
