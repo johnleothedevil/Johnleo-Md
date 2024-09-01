@@ -1246,7 +1246,7 @@ const date = moment().format('DD/MM/YYYY');
 ┇  🚀 *Commands* : ${cm.length} 
 ┇  ⌚️ *Time* : ${temps}
 ┇  🖥️ System : 𝐉𝐎𝐇𝐍𝐋𝐄𝐎-𝐌𝐃
-┇  📰 Bot ID : VZ67IPO
+┇  📰 Bot ID : VZ27NLP
 └─────═━┈┈━═─────⊷
 ┇  📼 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 └─────═━┈┈━═─────⊷
