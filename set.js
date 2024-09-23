@@ -1,3 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const fs = require('fs-extra');
 const { Sequelize } = require('sequelize');
 if (fs.existsSync('set.env'))
@@ -9,12 +27,12 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || '',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Johnleo Tech",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "Johnleo Tech",              
+    OWNER_NAME: process.env.OWNER_NAME || "Johnleo",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " Johnleo",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'Johnleo-Md',
-    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/ee73167f14236e3216935.jpg',
+    BOT : process.env.BOT_NAME || 'JohnleoMD',
+    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/17c83719a1b40e02971e4.jpg',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
@@ -36,4 +54,3 @@ fs.watchFile(fichier, () => {
     delete require.cache[fichier];
     require(fichier);
 });
-
