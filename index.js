@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/SCENE-MD;;;=>/g,"");
+var session = conf.session.replace(/Zokou-MD-WHATSAPP-BOT;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -56,7 +56,7 @@ async function authentification() {
        
         //console.log("le data "+data)
         if (!fs.existsSync(__dirname + "/auth/creds.json")) {
-            console.log("connected successfully...");
+            console.log("connexion en cour ...");
             await fs.writeFileSync(__dirname + "/auth/creds.json", atob(session), "utf8");
             //console.log(session)
         }
@@ -65,7 +65,7 @@ async function authentification() {
         }
     }
     catch (e) {
-        console.log("Session Invalid " + e);
+        console.log("Session Invalide " + e);
         return;
     }
 }
@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['BUGATTI', "safari", "1.0.0"],
+            browser: ['Flash-Md', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -132,11 +132,11 @@ setTimeout(() => {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='255714595078';
-             const dj2='255767570963';
-             const luffy='255781144539'*/
-            /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
-              var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
+            /* const FranceKing='254757835036';
+             const FranceKing1='254751284190';
+             const FranceKing2='254750948696'*/
+            /*  var superUser=[servBot,FranceKing,FranceKing1,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
+              var dev =[FranceKing,FranceKing1,FranceKing2].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
             var infosGroupe = verifGroupe ? await zk.groupMetadata(origineMessage) : "";
             var nomGroupe = verifGroupe ? infosGroupe.subject : "";
@@ -154,25 +154,25 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254740007567';
-            const dj2 = '254740007567';
-            const dj3 = "254740007567";
-            const luffy = '25490375710';
+            const FranceKing = '254757835036';
+            const FranceKing1 = '254751284190';
+            const FranceKing2 = "254750948696";
+            const FranceKing3 = '254742063632';
             const sudo = await getAllSudoNumbers();
-            const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
+            const superUserNumbers = [servBot, FranceKing, FranceKing1, FranceKing2, FranceKing3, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
-            var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+            var dev = [FranceKing, FranceKing1,FranceKing2,FranceKing3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{BUGATTI}...[][]");
+            console.log("\t [][]...{IBRAHIM-MD}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
-                console.log("message sent from : " + nomGroupe);
+                console.log("message from the group : " + nomGroupe);
             }
-            console.log("message from : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
-            console.log("type of message : " + mtype);
-            console.log("------end of your messages ------");
+            console.log("message sent By : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
+            console.log("message type : " + mtype);
+            console.log("------ message content ------");
             console.log(texte);
             /**  */
             function groupeAdmin(membreGroupe) {
@@ -211,8 +211,7 @@ setTimeout(() => {
             const verifCom = texte ? texte.startsWith(prefixe) : false;
             const com = verifCom ? texte.slice(1).trim().split(/ +/).shift().toLowerCase() : false;
            
-
-            
+         
             const lien = conf.URL.split(',')  
 
             
@@ -287,7 +286,7 @@ function mybotpic() {
         
                                     if(msg === null || !msg ||msg === 'undefined') {console.log('Message non trouver') ; return } 
         
-                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        BUGATTI DELETED INFORMATION\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
+                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈Anti-delete-message😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
                                 .then( () => {
                                     zk.sendMessage(idBot,{forward : msg},{quoted : msg}) ;
                                 })
@@ -425,11 +424,11 @@ function mybotpic() {
                                         id: ms.key.id,
                                         participant: auteurMessage
                                     };
-                                    var txt = "link detected!!\n";
+                                    var txt = "link detected, \n";
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Bugatti',
+                                        pack: 'Ibrahim-Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -443,7 +442,7 @@ function mybotpic() {
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by Marisel.`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group.`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -458,7 +457,7 @@ function mybotpic() {
                                     await fs.unlink("st1.webp"); } 
                                         
                                        else if (action === 'delete') {
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} avoid sending link.`;
+                                        txt += `Goodbye \n @${auteurMessage.split("@")[0]} Sending other group links here is prohibited!.`;
                                         // await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
                                        await zk.sendMessage(origineMessage, { text: txt, mentions: [auteurMessage] }, { quoted: ms });
                                        await zk.sendMessage(origineMessage, { delete: key });
@@ -527,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: '𝐁𝐮𝐠𝐚𝐭𝐭𝐢',
+                pack: 'Ibrahim-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -611,7 +610,7 @@ function mybotpic() {
                          /******************* PM_PERMT***************/
 
             if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
-                repondre("ERROR!! ❌\n\nYou don't have acces to commands here") ; return }
+                repondre("You don't have acces to commands here") ; return }
             ///////////////////////////////
 
              
@@ -664,32 +663,36 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/305827be2080296d1ab2d.jpg';
+        ppgroup = 'https://telegra.ph/file/37ad9456847e2ad3403e7.jpg';
     }
 
     try {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `╔════◇◇◇═════╗
-║ welcome to new(s) member(s)
-║ *New(s) Member(s) :*
+            let msg = `◇IBRAHIM-MD◇
 `;
-
+             
             let membres = group.participants;
             for (let membre of membres) {
-                msg += `║ @${membre.split("@")[0]}\n`;
+                msg += `Hello @${membre.split("@")[0]}\n`;
             }
 
-            msg += `║
-╚════◇◇◇═════╝
-◇ *Descriptioon*   ◇
+            msg += `*You are welcomed here.* 
+            
+*You MAY read the group description FOR more info and Avoid getting removed*
+            
+     
+            
+ ◇ *GROUP DESCRIPTION*  ◇
 
-${metadata.desc}\n\n> 𝐉𝐨𝐡𝐧𝐥𝐞𝐨𝐒𝐦𝐢𝐭𝐡.`;
+${metadata.desc}
+
+📌Powred by *Ibrahim King*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `one or somes member(s) left group;\n`;
+            let msg = `Goodbye to that Fallen soldier, Powered by *𝗜𝗕𝗥𝗔𝗛𝗜𝗠-𝗠𝗗*;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -813,23 +816,23 @@ ${metadata.desc}\n\n> 𝐉𝐨𝐡𝐧𝐥𝐞𝐨𝐒𝐦𝐢𝐭𝐡.`;
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("Bugatti is connecting in your account...");
+                console.log("ℹ️ Connexion en cours...");
             }
             else if (connection === 'open') {
-                console.log("Bugatti connected successfully☺️");
+                console.log("✅ connexion reussie! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Bugatti by Marisel is installing cmds😇\n\n");
+                console.log("le bot est en ligne 🕸\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + "Successfully installed Bugatti commands");
+                            console.log(fichier + " installé ✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
@@ -849,43 +852,59 @@ ${metadata.desc}\n\n> 𝐉𝐨𝐡𝐧𝐥𝐞𝐨𝐒𝐦𝐢𝐭𝐡.`;
                 else {
                     md = "undefined";
                 }
-                console.log("Bugatti successfully connected✅");
+                console.log("chargement des commandes terminé ✅");
 
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `𝐉𝐨𝐡𝐧𝐥𝐞𝐨 𝐌𝐃 𝐢𝐬 𝐎𝐧𝐥𝐢𝐧𝐞  ⏳\n${readmore}
-    
-    𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${prefixe} ]
-    𝗠𝗼𝗱𝗲 :${md} mode
-    𝗣𝗹𝘂𝗴𝗶𝗻𝘀 : 245
-    𝗥𝗮𝗺 : 𝟲𝟴/𝟭𝟯𝟮 𝗚𝗕
-    𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗟𝗶𝗻𝘂𝘅
-    𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝐉𝐨𝐡𝐧𝐥𝐞𝐨𝐒𝐦𝐢𝐭𝐡
+                let cmsg = `
+*『JOHNLEO MD CONNECTED 』*
 
-> 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐃𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝐉𝐨𝐡𝐧𝐥𝐞𝐨 𝐌𝐃`;
-                    
-                await zk.sendMessage( zk.user.id, { text: cmsg });
+     
+║❒Creator: *JOHNLEO*
+║❒Prefix : [ ${prefixe} ]
+║❒Mode :${md}
+║❒Created on : *22.2.2024*
+║❒Total Commands : ${evt.cm.length}︎
+
+   
+ 
+
+
+║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
+https://chat.whatsapp.com/JE3gJsV15ly9ViU6lgw0GD
+
+║❒ *CONTACT THE DEVELOPER* 🪄 
+https://wa.me/message/74F2PC4JA4F3P1
+
+║❒ *YOUTUBE*
+https://www.youtube.com/@ibrahimaitech
+
+
+
+
+              *JOHNLEO*`;
+                await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
             else if (connection == "close") {
                 let raisonDeconnexion = new boom_1.Boom(lastDisconnect?.error)?.output.statusCode;
                 if (raisonDeconnexion === baileys_1.DisconnectReason.badSession) {
-                    console.log('Wrong session Id format, rescan again...');
+                    console.log('Session id érronée veuillez rescanner le qr svp ...');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionClosed) {
                     console.log('!!! connexion fermée, reconnexion en cours ...');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionLost) {
-                    console.log('connection error😞 ,, Bugatti trying to reconnect... ');
+                    console.log('connexion au serveur perdue 😞 ,,, reconnexion en cours ... ');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason?.connectionReplaced) {
                     console.log('connexion réplacée ,,, une sesssion est déjà ouverte veuillez la fermer svp !!!');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.loggedOut) {
-                    console.log('session disconnected,,, replace a new session id');
+                    console.log('vous êtes déconnecté,,, veuillez rescanner le code qr svp');
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.restartRequired) {
                     console.log('redémarrage en cours ▶️');
