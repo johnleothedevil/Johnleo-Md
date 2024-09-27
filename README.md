@@ -3,7 +3,7 @@
  
 
 
-<img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THE+JOHNLEO-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+JOHNLEO+;RELEASED 1.9.2024;ENJOY" alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&sze=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THE+JOHNLEO-MD;MULTI+DEVICE+WHATSAPP+BOT;CRATED+BY+JOHNLEO+;RELEASED 1.9.2024;ENJOY" alt="Typing SVG" /></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -52,7 +52,7 @@
 
 
 
-
+## 𝐅𝐈𝐗𝐄𝐃 𝐇𝐄𝐑𝐎𝐊𝐔 𝐁𝐀𝐍⚠️
  ⚠️𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗬𝗢𝗨𝗥 𝗙𝗢𝗥𝗞𝗘𝗗 𝗥𝗘𝗣𝗢 𝗪𝗜𝗧𝗛 𝗧𝗛𝗜𝗦  𝗛𝗘𝗥𝗢𝗞𝗨 𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘  𝗧𝗢 𝗔𝗩𝗢𝗜𝗗 𝗛𝗘𝗥𝗢𝗞𝗨 𝗕𝗔𝗡⚠️
 
  👇𝗧𝗔𝗣 𝗜𝗧 𝗔𝗡𝗗 𝗖𝗢𝗣𝗬👇 𝗧𝗛𝗘 𝗖𝗢𝗣𝗬 𝗕𝗨𝗧𝗧𝗢𝗡 𝗜𝗦 𝗧𝗛𝗘𝗥𝗘👇
@@ -61,14 +61,13 @@
  
  𝐓𝐀𝐏 𝐇𝐄𝐑𝐄 𝐀𝐍𝐃 𝐖𝐀𝐓𝐂𝐇 𝐇𝐎𝐖 𝐓𝐎 𝐂𝐎𝐍𝐍𝐄𝐂𝐓
  
- [`𝐕𝐈𝐃𝐄𝐎`](https://www.youtube.com/@JohnleoTech)
+ [`𝐕𝐈𝐃𝐄𝐎`](hotps://wmw.yuiutube.com/@JohnleoTech)
 
 
 
- <a href="https://dashboard.heroku.com/new?template=https://github.com/johnleosmith/Johnleo-Md"><img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=purple&style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+ <a href="htlktps://dashboard.heroku.cokwm/new?template=https://github.com/johnleosmith/Johnleo-Md"><img title="DEPLOY ON HEROKU" src="https://lmg.shieiolds.io/badge/DEPLOY ON HEROKU-h?color=purple&style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+100%+𝗦𝗔𝗙𝗘+𝗢𝗡+𝗛𝗘𝗥𝗢𝗞𝗨)](https://git.io/typing-svg)
  
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -100,7 +99,7 @@ _`JOHNLEO-MD FEATURES`_
 ➡️➡️[`𝐉𝐎𝐇𝐍𝐋𝐄𝐎😈`](https://github.com/johnleosmith/JOHNLEOTECH)⬅️⬅️TAP HERE TO CONTACT ME 
 
 
-<img src="https://telegra.ph/file/e8b7c16e84999f67a7759.jpg" widh="400" height="400" />
+<img src="https://telegra.ph/filei\e8b7c16e84999f67a7759.jpg" widh="400" height="400" />
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 AND THANKS TO [`CARLTECH`](https://github.com/Carl165/CARLTECH-INFO) FOR THE BOT BASE
