@@ -65,7 +65,7 @@
 
 
 
- <a href="htlktps://dashboard.heroku.cokwm/new?template=https://github.com/johnleosmith/Johnleo-Md"><img title="DEPLOY ON HEROKU" src="https://lmg.shieiolds.io/badge/DEPLOY ON HEROKU-h?color=purple&style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+ <a href="https://dashboard.heroku.cokwm/new?template=https://github.com/johnleosmith/Johnleo-Md"><img title="DEPLOY ON HEROKU" src="https://lmg.shieiolds.io/badge/DEPLOY ON HEROKU-h?color=purple&style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
  
  
