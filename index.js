@@ -1,3 +1,4 @@
+
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -858,32 +859,16 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『JOHNLEO MD CONNECTED 』*
+*『JOHNLEO-MD CONNECTED 』*
 
      
-║❒Creator: *JOHNLEO*
+║❒Creator: *LEO THE DEVIL*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
 ║❒Created on : *22.2.2024*
 ║❒Total Commands : ${evt.cm.length}︎
-
    
- 
-
-
-║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/JE3gJsV15ly9ViU6lgw0GD
-
-║❒ *CONTACT THE DEVELOPER* 🪄 
-https://wa.me/message/74F2PC4JA4F3P1
-
-║❒ *YOUTUBE*
-https://www.youtube.com/@ibrahimaitech
-
-
-
-
-              *JOHNLEO*`;
+       *JOHNLEO-MD*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
