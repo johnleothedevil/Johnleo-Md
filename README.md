@@ -64,10 +64,8 @@
  [`𝐕𝐈𝐃𝐄𝐎`](hotps://wmw.yuiutube.com/@JohnleoTech)
 
 
-
- <a href="https://dashboard.heroku.cokwm/new?template=https://github.com/johnleosmith/Johnleo-Md"><img title="DEPLOY ON HEROKU" src="https://lmg.shieiolds.io/badge/DEPLOY ON HEROKU-h?color=purple&style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>   
-                                                                                                
-
+                                                                    
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/johnleothedevil/Johnleo-MD"><img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=green&style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  
  
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
