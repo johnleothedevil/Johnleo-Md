@@ -264,7 +264,7 @@
     "whatsapp-bot",
     "ibraah"
   ],
-  "author": "Johnleosmith",
+  "author": "johnleosmith",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
