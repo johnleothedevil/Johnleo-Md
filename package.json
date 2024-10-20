@@ -247,7 +247,7 @@
 
 
 {
-    "name": "Cyberion-V1",
+    "name": "Johnleo-Md",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -264,7 +264,7 @@
     "whatsapp-bot",
     "ibraah"
   ],
-  "author": "carl24tech",
+  "author": "Johnleosmith",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
