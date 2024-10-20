@@ -859,7 +859,7 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『JOHNLEO-MD CONNECTED 』*
+*JOHNLEO-MD CONNECTED*
 
      
 ║❒Creator: *LEO THE DEVIL*
